@@ -12,7 +12,7 @@ Each of these sections are contained within their own notebook, numbered one thr
 
 Before doing anything make sure to have an up to date installation of both [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and Python. The notebooks were written using version 3.10 which can easily be selected when using a version manager like [pyev](https://github.com/pyenv/pyenv). Once you have these, you can then clone this repository by running:
 ```
-git clone link/to/repository
+git clone https://github.com/AdvCosmoExgalSchool/Synthesizer-SED-Workshop
 ```
 in the desired directory. Now we should create a virtual environment which will contain all the software necessary for running the notebooks, without interfering with any of your previous installations. You can create a virtual environment using:
 ```
