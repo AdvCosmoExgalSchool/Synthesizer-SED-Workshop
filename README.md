@@ -36,7 +36,7 @@ Before we can run the notebooks we need to ensure Synthesizer and Bagpipes have 
 ```
 synthesizer-download --test-grids --destination /path/to/destination
 ```
-where `/path/to/destination` should point to a `grids` directory. You will also need the [BC03](https://www.dropbox.com/scl/fo/3n8v3o4m85b0t8fl8pm0n/h?dl=0&e=1&preview=bc03_chabrier03-0.1%2C100.hdf5&rlkey=9x4cijjnmvw5m6plnyovywuva) and [BPASS](https://www.dropbox.com/scl/fo/3n8v3o4m85b0t8fl8pm0n/h?dl=0&e=1&preview=bpass-2.2.1-bin_chabrier03-0.1%2C300.0_cloudy-c23.01-sps.hdf5&rlkey=9x4cijjnmvw5m6plnyovywuva) grids which can be downloaded directly and placed in the same directory.
+where `/path/to/destination` should point to a `grids` directory. You will also need the [BC03](https://www.dropbox.com/scl/fi/25mw3gk28k7jkae7tkbug/bc03_chabrier03-0.1-100_cloudy-c17.03.hdf5?rlkey=28uqjqrurtywfyj03yqegr0s9&e=1&dl=0) and [BPASS](https://www.dropbox.com/scl/fo/3n8v3o4m85b0t8fl8pm0n/h?dl=0&e=1&preview=bpass-2.2.1-bin_chabrier03-0.1%2C300.0_cloudy-c23.01-sps.hdf5&rlkey=9x4cijjnmvw5m6plnyovywuva) grids which can be downloaded directly and placed in the same directory.
 
 Now for Bagpipes, enter your virtual environment folder, find `config.py` in `lib/python{version}/site-packages/bagpipes` and change the maximum redshift to 20. Make sure to save the file! In the same Bagpipes directory, enter `models/grids` and delete `d_igm_grid_inoue14.fits` if it exists.
 
